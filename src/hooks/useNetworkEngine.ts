@@ -2,7 +2,7 @@ import { useEffect, useRef } from 'react';
 import { useNetworkStore } from '../lib/store';
 import { generateUUID } from '../lib/utils';
 
-const TARGET_URL = "https://cdn.jsdelivr.net/npm/react@18.2.0/package.json";
+const TARGET_URL = "https://ping-asia.vercel.app/api/";
 
 export function useNetworkEngine() {
   const { isRunning, addDataPoint } = useNetworkStore();
