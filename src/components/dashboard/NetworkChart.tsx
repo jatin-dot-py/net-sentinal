@@ -113,7 +113,7 @@ export function NetworkChart() {
         </div>
       </CardHeader>
       <CardContent className="px-3 pb-3">
-        <div className="h-[450px] w-full">
+        <div className="h-[300px] sm:h-[400px] lg:h-[450px] w-full">
           <ResponsiveContainer width="100%" height="100%">
             <LineChart 
               data={chartData}

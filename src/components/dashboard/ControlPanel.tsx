@@ -22,8 +22,8 @@ export function ControlPanel() {
   };
 
   return (
-    <div className="flex flex-wrap items-center gap-3">
-      <div className="w-[280px]">
+    <div className="flex flex-wrap items-center gap-2 sm:gap-3 w-full lg:w-auto">
+      <div className="w-full sm:w-[240px] lg:w-[280px]">
         <Select 
           value={viewingSessionId || "live"} 
           onValueChange={(v) => setViewingSession(v === "live" ? null : v)} 

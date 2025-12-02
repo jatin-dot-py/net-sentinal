@@ -34,7 +34,7 @@ export function RegionSidebar() {
         <h2 className="text-xs font-semibold text-slate-400 uppercase tracking-wider">Regions</h2>
       </div>
       
-      <div className="space-y-1.5">
+      <div className="grid grid-cols-2 lg:grid-cols-1 gap-2 lg:gap-1.5 lg:space-y-0">
         {(Object.keys(META) as RegionID[]).map((r) => {
           const regionData = dataSource[r];
           const last = regionData.slice(-1)[0];
