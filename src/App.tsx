@@ -6,7 +6,6 @@ import { StatGrid } from "@/components/dashboard/StatGrid";
 import { NetworkChart } from "@/components/dashboard/NetworkChart";
 import { IncidentTable } from "@/components/dashboard/IncidentTable";
 import { ControlPanel } from "@/components/dashboard/ControlPanel";
-import { ScrollArea } from "@/components/ui/scroll-area";
 import { Activity, Globe } from "lucide-react";
 
 export default function Dashboard() {
